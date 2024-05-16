@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobiliario tech</title>
+  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--preload-->
+    <link rel="preload" as="image" href="images/hero-product-1.jpg">
+    <link rel="preload" as="image" href="images/hero-product-2.jpg">
+    <link rel="preload" as="image" href="images/hero-product-3.jpg">
+    <link rel="preload" as="image" href="images/hero-product-4.jpg">
+    <link rel="preload" as="image" href="images/hero-product-5.jpg">
+    <link rel="preload" as="image" href="images/blog-1.jpg">
+    <link rel="preload" as="image" href="images/blog-2.jpg">
+    <link rel="preload" as="image" href="images/blog-3.jpg">
+  
+    
+</head>
+
+<!--box-icon-->
+
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+<body>
+    
+    <!--header-->
+
+<header class="header" data-header>
+ <div class="container">
+    <div class="input-navbar">
+        <input type="search" name="Buscar" placeholder="Buscar aquí" class="input-field">
+        <i class='bx bx-search'></i>
+    </div>
+
+        <a href="#" class="logo">Mueblix</a>
+
+        <div class="header-action">
+
+        <button class="header-action-btn" aria-label="user">
+            <i class='bx bx-user' aria-hidden="true"></i>
+        </button>
+
+        <button class="header-action-btn" aria-label="favorite list">
+            <i class='bx bx-heart' aria-label="true"></i>
+            <span class="btn-badge">0</span>
+        </button>
+
+        <button class="header-action-btn" aria-label="cart">
+            <i class='bx bx-cart-alt' aria-label="true"></i>
+            <span class="btn-badge">0</span>
+        </button>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+            <i class='bx bx-menu' aria-hidden="true"></i>
+        </button>
+
+    </div>
+ </div>
+    </header> 
+    
+<div class="navbar" data-navbar>
+
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler="">
+        <i class='bx bx-x' aria-hidden="true"></i>
+    </button>
+    <div class="wrapper">
+        <ul class="navbar-list">
+            <li>
+                <p class="navbar-list-title">Idiomas</p>
+            </li>
+
+            <li><a href="#" class="navbar-link">Ingles</a>
+            </li>
+
+            <li><a href="#" class="navbar-link">Frances</a>
+            </li>
+
+            <li><a href="#" class="navbar-link">Portugues</a>
+            </li>
+
+            <ul class="navbar-list">
+
+                <li>
+                  <p class="navbar-list-title">Currency</p>
+                </li>
+        
+                <li>
+                  <a href="#" class="navbar-link">USD - US Dollar</a>
+                </li>
+        
+                <li>
+                  <a href="#" class="navbar-link">Euro</a>
+                </li>
+        
+                <li>
+                  <a href="#" class="navbar-link">Pound</a>
+                </li>
+            </ul>
+        </div>
+
+        <nav class="navegacion">
+            <ul class="navegacion-list">
+                <li class="navegacion-item">
+                    <a href="#home" class="navegacion-link" data-nav-link>Inicio</a>
+                </li>
+                <li class="navegacion-item">
+                    <a href="#about" class="navegacion-link" data-nav-link>Conocenos</a>
+                </li>
+                <li class="navegacion-item">
+                    <a href="#product" class="navegacion-link" data-nav-link>Producto</a>
+                </li>
+                <li class="navegacion-item">
+                    <a href="#blog" class="navegacion-link" data-nav-link>Blogs</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="contact-list">
+
+            <li>
+                <p class="contact-list-title">Contactanos</p>
+            </li>
+
+            <li class="contact-item">
+                <address class="address">
+                    Colombia, Medellin-Antioquia 🇨🇴
+                </address>
+            </li>
+
+            <li class="contact-item">
+                <a href="mailto:amosquera45.am@gmail.com" class="contact-link">amosquera45.am@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+                <a href="tel:3017408136" class="contact-link">301-740-81-36</a>
+            </li>
+        </ul>
+
+        <div class="social-wrapper">
+
+            <p class="social-list-title">Siguenos en nuestras redes</p>
+
+            <ul class="social-list">
+
+                <li>
+                    <a href="" class="social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </li>
+                <li>
+
+                    <a href="" class="social-link">
+                        <i class='bx bxl-facebook' ></i>
+                    </a>
+                </li>
+                <li>
+
+                    <a href="" class="social-link">
+                        <i class='bx bxl-linkedin' ></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="overlay" data-overlay data-nav-toggler></div>
+
+
+    <main>
+        <article>
+    
+          <!-- 
+            - #HERO
+          -->
+    
+          <section class="section hero" id="home" aria-label="home">
+            <div class="container">
+    
+              <ul class="hero-list">
+    
+                <li>
+                  <div class="hero-box">
+    
+                    <figure class="box-banner img-holder" style="--width: 285; --height:396;">
+                      <img src="images/hero-product-1.jpg" width="285" height="396" alt="arte"
+                        class="img-cover">
+                    </figure>
+    
+                    <div class="box-content">
+                      <h3>
+                        <a href="#" class="box-title">Jarron art home</a>
+                      </h3>
+    
+                      <p class="box-text">Decoración</p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="colspan-2">
+                  <div class="hero-box">
+    
+                    <figure class="box-banner img-holder" style="--width: 568; --height: 389;">
+                      <img src="images/hero-product-2.jpg" width="568" height="389" alt="Silla"
+                        class="img-cover">
+                    </figure>
+    
+                    <div class="box-content">
+                      <h3>
+                        <a href="#" class="box-title">Silla tifa</a>
+                      </h3>
+    
+                      <p class="box-text">Decoración</p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="hero-box">
+    
+                    <figure class="box-banner img-holder" style="--width: 285; --height: 396;">
+                      <img src="images/hero-product-3.jpg" width="285" height="396" alt="base de flores"
+                        class="img-cover">
+                    </figure>
+    
+                    <div class="box-content">
+                      <h3>
+                        <a href="#" class="box-title">Jarrón de flores</a>
+                      </h3>
+    
+                      <p class="box-text">Decoración</p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="colspan-2">
+                  <div class="hero-box">
+    
+                    <figure class="box-banner img-holder" style="--width: 580; --height: 213;">
+                      <img src="images/hero-product-4.jpg" width="580" height="213" alt="canasta decorativa"
+                        class="img-cover">
+                    </figure>
+    
+                    <div class="box-content">
+                      <h3>
+                        <a href="#" class="box-title">Huevos de madera</a>
+                      </h3>
+    
+                      <p class="box-text">Decoración<n/p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li class="colspan-2">
+                  <div class="hero-box">
+    
+                    <figure class="box-banner img-holder" style="--width: 580; --height: 213;">
+                      <img src="images/hero-product-5.jpg" width="580" height="213" alt="mesa de pino"
+                        class="img-cover">
+                    </figure>
+    
+                    <div class="box-content">
+                      <h3>
+                        <a href="#" class="box-title">mesa de madera de pino</a> 
+                      </h3>
+    
+                      <p class="box-text">Futurista</p>
+                    </div>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+            </div>
+          </section>
+
+          <section class="section about" id="about" aria-label="about">
+            <div class="container">
+    
+              <h2 class="section-title">Tienda Mueblix</h2>
+    
+              <p class="section-text">Cuando te metes a hacer un retrato y buscas una forma pura, un volumen claro, a través de eliminaciones sucesivas, llegas inevitablemente al huevo. Igualmente, empezando con el huevo y siguiendo el mismo proceso al revés, uno termina con el retrato.
+
+              </p>
+
+              <div class="about-box">
+            <figure class="box-banner img-holder" style="--width: 1170; --height: 450;">
+              <img src="images/about-banner.jpg" width="1170" height="450" loading="lazy" alt="Mueblix"
+                class="img-cover">
+            </figure>
+
+            <button class="play-btn" aria-label="play video">
+              <i class='bx bx-play-circle' aria-hidden="true"></i>
+            </button>
+          </div>
+
+        </div>
+      </section>
+    
+      
+      <!-- 
+        - #PRODUCTS
+      -->
+
+      <section class="section product" id="product" aria-label="product">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Popular Products</h2>
+
+            <ul class="filter-btn-list">
+
+              <li class="filter-btn-item">
+                <button class="filter-btn active" data-filter-btn="all">All Products</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="accessory">Accessory</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="decoration">Decoration</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="furniture">Furniture</button>
+              </li>
+
+            </ul>
+          </div>
+
+          <ul class="grid-list product-list" data-filter="all">
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-1.jpg" width="300" height="300" loading="lazy"
+                    alt="Animi Dolor Pariatur" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+
+                  <ul class="badge-list">
+
+                    <li>
+                      <div class="badge orange">Sale</div>
+                    </li>
+
+                    <li>
+                      <div class="badge cyan">-10%</div>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Elegancia y estilo a tu hogar</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <del class="del">$180.00</del>
+
+                    <data class="price" value="10">$150.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-2.jpg" width="300" height="300" loading="lazy" alt="Art Deco Home"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-badge">Agotado</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Deco Home</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="30">$30.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-3.jpg" width="300" height="300" loading="lazy"
+                    alt="Artificial potted plant" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Planta artificial</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="40">$40.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-4.jpg" width="300" height="300" loading="lazy" alt="Dark Green Jug"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Jarra verde oscuro</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="17.10">$50.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-5.jpg" width="300" height="300" loading="lazy"
+                    alt="Drinking Glasses" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Vasos</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="21">$21.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-6.jpg" width="300" height="300" loading="lazy" alt="Helen Chair"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Silla tifa</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="69.50">$250.050</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-7.jpg" width="300" height="300" loading="lazy"
+                    alt="High Quality Glass Bottle" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Botella de vidrio de alta calidad</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="30.10">$100.210</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-8.jpg" width="300" height="300" loading="lazy"
+                    alt="Living Room & Bedroom Lights" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Luces de salón y dormitorio</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="45">$650.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-9.jpg" width="300" height="300" loading="lazy" alt="Nancy Chair"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Silla nancy</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="90">$190.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-10.jpg" width="300" height="300" loading="lazy" alt="Simple Chair"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Silla sencilla</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="40">$200.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-11.jpg" width="300" height="300" loading="lazy" alt="Smooth Disk"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Disco liso</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="46">$150.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-12.jpg" width="300" height="300" loading="lazy" alt="Table Black"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mesa negra</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="67">$370.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-13.jpg" width="300" height="300" loading="lazy"
+                    alt="Table Wood Pine" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mesa pino de madera</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="50">$600.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-14.jpg" width="300" height="300" loading="lazy"
+                    alt="Teapot with black tea" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tetera con té negro</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="25">$80.00</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-15.jpg" width="300" height="300" loading="lazy"
+                    alt="Unique Decoration" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Decoración unica</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="15">$150.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-16.jpg" width="300" height="300" loading="lazy"
+                    alt="Vase Of Flowers" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Base de flores</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="77">$77.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-17.jpg" width="300" height="300" loading="lazy" alt="Wood Eggs"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">huevos de madera</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="19">$39.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-18.jpg" width="300" height="300" loading="lazy" alt="Wooden Box"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Caja de madera</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="27">$270.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="images/product-19.jpg" width="300" height="300" loading="lazy" alt="Wooden Cups"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-happy-heart-eyes' aria-hidden=“true”></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <i class='bx bx-cart-alt' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <i class='bx bx-heart' aria-hidden="true"></i>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tazas de madera</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="29">$29.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!--Blog-->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Explora nuestro blog</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Ver todos</span>
+
+              <i class='bx bx-right-arrow-alt' aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 374; --height: 243;">
+                  <img src="images/blog-1.jpg" width="374" height="243" loading="lazy"
+                    alt="Unique products that will impress your home in 2022." class="img-cover">
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Leer Más</span>
+
+                    <i class='bx bx-chevrons-right' aria-hidden="true" ></i>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Productos únicos que impresionarán tu hogar en 2024.</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time class="card-meta-text" datetime="2022-09-27">Mayo 16, 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <a href="#" class="card-meta-text">Administració</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      en <a href="#" class="card-meta-text">decoración</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 374; --height: 243;">
+                  <img src="images/blog-2.jpg" width="374" height="243" loading="lazy"
+                    alt="Navy Blue & White Striped Area Rugs" class="img-cover">
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Leer Más</span>
+
+                    <i class='bx bx-chevrons-right' aria-hidden="true"></i>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Alfombras de rayas azul marino y blanco</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time class="card-meta-text" datetime="2022-09-25">Mayo 16, 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <a href="#" class="card-meta-text">Administración</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      en <a href="#" class="card-meta-text">decoración</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 374; --height: 243;">
+                  <img src="images/blog-3.jpg" width="374" height="243" loading="lazy"
+                    alt="Woodex White Coated Staircase Floating" class="img-cover">
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Leer Más</span>
+
+                    <i class='bx bx-chevrons-right' aria-hidden="true"></i>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Escalera flotante revestida de blanco woodex</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time class="card-meta-text" datetime="2022-09-18">Mayo 16, 2024</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <a href="#" class="card-meta-text">Administración</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      en <a href="#" class="card-meta-text">decoración</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!--conocenos-->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <div class="card-content">
+              <h2 class="h2 section-title">Nuestras noticias</h2>
+
+              <p class="section-text">
+                Deja que tu hogar refleje tu estilo único con nuestro mobiliario al 50% dto·
+              </p>
+            </div>
+
+            <form action="" class="card-form">
+              <input type="email" name="email_address" placeholder="Escribe tu correo electronico" required class="email-field">
+
+              <button type="submit" class="newsletter-btn" aria-label="subscribe">
+                <i class='bx bx-right-arrow-alt' aria-hidden="true"></i>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!--footer-->
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Mueblix</a>
+
+          <ul>
+
+            <li class="footer-list-item">
+              <i class='bx bxs-location-plus' aria-hidden="true" ></i>
+
+              <address class="address">
+                Medellin-Antioquia 🇨🇴
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <i class='bx bxs-phone-call' aria-hidden="true" ></i>
+
+              <a href="tel:+573017408136" class="footer-link">+57 301-740-81-36</a>
+            </li>
+
+            <li>
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <i class='bx bxl-instagram' ></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <i class='bx bxl-facebook' ></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-link">
+                    <i class='bx bxl-linkedin'></i>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Ayuda & Informacion</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ayuda & Contactanos</a>
+          </li>
+
+
+          <li>
+            <a href="#" class="footer-link">Tienda Online</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terminos & Condiciones</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Acerca de nosotros</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Acerca de nosotros</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lo que hacemos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contactanos</a>
+          </li>
+
+        </ul>
+
+      
+
+          <div class="wrapper">
+
+            <a href="#" class="footer-link">Terminos & Condiciones</a>
+            <a href="#" class="footer-link">Politicas</a>
+            <a href="#" class="footer-link">Mapa</a>
+
+
+        </div>
+
+      </div>
+
+   
+
+        <p class="copyright">
+          &copy; 2024 Todos los derechos reservedos by <a href="https://walink.co/6b600c" class="copyright-link"> <span>Kevin Valoyes</span></a>.
+        </p>
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <i class='bx bx-up-arrow-alt' aria-hidden="true"></i>
+  </a>
+    
+
+    <script src="file.js"></script>
+</body>
+</html>
